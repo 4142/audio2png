@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: com.four142.audio2png.Audio2Png
+
