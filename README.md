@@ -3,6 +3,11 @@ audio2png
 
 Creates PNG files from audio files.
 
+Download
+--------
+
+The latest JAR file is available on the [releases page](https://github.com/4142/audio2png/releases).
+
 How it works
 ------------
 
