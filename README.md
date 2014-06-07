@@ -1,7 +1,7 @@
 audio2png
 =========
 
-Creates PNG files from audio files.
+Creates PNG files from audio files. You can use [png2audio-player](https://github.com/4142/png2audio-player) to play them back.
 
 Download
 --------
