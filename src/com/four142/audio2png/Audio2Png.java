@@ -70,7 +70,7 @@ public class Audio2Png {
      */
     public static byte[] convert(File input, File ffmpeg) throws IOException, Exception {
 
-        Process process = new ProcessBuilder(ffmpeg.getPath(), "-i", input.getPath(), "-vn", "-f", "ogg", "-acodec", "libvorbis", "pipe:").start();
+        final Process process = new ProcessBuilder(ffmpeg.getPath(), "-loglevel", "quiet", "-nostdin", "-i", input.getPath(), "-vn", "-f", "ogg", "-acodec", "libvorbis", "pipe:").start();
 
         final InputStream processInputStream = process.getInputStream();
         final ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
